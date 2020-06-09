@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701f845d-c4f1-41d5-a685-fe0c7110e958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtomicDemo/AtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuyTicket/BuyTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuyTicket/BuyTicket2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingleTon/EagerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingleTon/LazyMode1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleTon/DoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleTon/DoubleCheck.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SingleTon/LazyMode1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SingleTon/LazyMode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SingleTon/DoubleCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -109,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/BuyTicket/BuyTicket.java" />
         <option value="$PROJECT_DIR$/src/SingleTon/EagerMode.java" />
         <option value="$PROJECT_DIR$/src/SingleTon/LazyMode1.java" />
+        <option value="$PROJECT_DIR$/src/SingleTon/DoubleCheck.java" />
       </list>
     </option>
   </component>
@@ -247,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591672686610</updated>
-      <workItem from="1591672693312" duration="13230000" />
+      <workItem from="1591672693312" duration="13887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13230000" />
+    <option name="totallyTimeSpent" value="13887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -346,10 +350,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleTon/LazyMode1.java">
+    <entry file="file://$PROJECT_DIR$/src/SingleTon/LazyMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleTon/DoubleCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
