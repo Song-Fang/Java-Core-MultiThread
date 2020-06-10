@@ -6,15 +6,16 @@ import java.util.concurrent.FutureTask;
 public class CallableCreate {
     public static void main(String [] args) throws Exception{
         CallableDemo callableDemo = new CallableDemo();
-        FutureTask futureTask = new FutureTask(callableDemo);
+        FutureTask<Integer> futureTask = new FutureTask<>(callableDemo);
         new Thread(futureTask).start();
         new Thread(futureTask).start();
 
-        System.out.println(futureTask.get());
+        int sum = futureTask.get();
+        System.out.println(sum);
     }
 }
 
-class CallableDemo implements Callable {
+class CallableDemo<Integer> implements Callable {
     private int sum;
 
     @Override
