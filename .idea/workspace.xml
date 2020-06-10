@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701f845d-c4f1-41d5-a685-fe0c7110e958" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SingleTon/InnerStaticClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleTon/InnerStaticClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeadLock/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingleTon/InnerStaticClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -25,6 +26,19 @@
               <folding>
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#304#305#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DeadLock/DeadLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="e#191#653#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,10 +67,11 @@
         <option value="$PROJECT_DIR$/src/SingleTon/LazyMode1.java" />
         <option value="$PROJECT_DIR$/src/SingleTon/DoubleCheck.java" />
         <option value="$PROJECT_DIR$/src/SingleTon/InnerStaticClass.java" />
+        <option value="$PROJECT_DIR$/src/DeadLock/DeadLockDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
@@ -84,7 +99,7 @@
               <item name="javaUtilityConcurrency" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaUtilityConcurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleTon" type="462c0819:PsiDirectoryNode" />
+              <item name="DeadLock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuyTicket2">
+  <component name="RunManager" selected="Application.DeadLockDemo">
     <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AtomicDemo.AtomicDemo" />
       <module name="javaUtilityConcurrency" />
@@ -159,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeadLock.DeadLockDemo" />
+      <module name="javaUtilityConcurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DeadLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VolatileDemo.VolatileDemo" />
       <module name="javaUtilityConcurrency" />
@@ -174,6 +202,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.BuyTicket2" />
         <item itemvalue="Application.BuyTicket" />
         <item itemvalue="Application.AtomicDemo" />
@@ -191,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591672686610</updated>
-      <workItem from="1591672693312" duration="14493000" />
+      <workItem from="1591672693312" duration="16951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14493000" />
+    <option name="totallyTimeSpent" value="16951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -207,7 +236,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -217,7 +246,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11851852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21296297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,6 +340,17 @@
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeadLock/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#191#653#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
